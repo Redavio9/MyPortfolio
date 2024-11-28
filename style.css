@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 /* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css') */
 
-:root {
+/* :root {
     --bg-color: #000000;
     --text-color: #f0f0f0;
     --accent-color: #00ffff;
     --secondary-color: #ff00ff;
     --header-bg: #111111;
+} */
+
+:root {
+    --bg-color: #121212; /* Dark grey for a softer background */
+    --text-color: #eaeaea; /* Light grey for readability */
+    --accent-color: #4caf50; /* Fresh green for accents */
+    --secondary-color: #ff9800; /* Warm orange for secondary elements */
+    --header-bg: #1e1e1e; /* Slightly lighter dark grey for headers */
 }
+
 
 ::-webkit-scrollbar {
     width: 6px;
@@ -322,10 +331,10 @@ nav ul li a:hover::after {
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+        text-shadow: 0 0 5px rgb(24 239 33);
     }
     to {
-        text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+        text-shadow: 0 0 20px rgb(53 174 58);
     }
 }
 
@@ -687,7 +696,7 @@ nav ul li a:hover::after {
 .project-card h3 {
     padding: 1rem;
     font-size: 1.2rem;
-    color: var(--accent-color);
+    color: #eaeaea;
 }
 
 .project-skills {
