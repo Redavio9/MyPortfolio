@@ -525,7 +525,7 @@ working on my Data Structures and Algorithms .</p>
             }, 300);
         }
 
-        if (contactForm) {
+        {% comment %} if (contactForm) {
             contactForm.addEventListener('submit', async (e) => {
                 e.preventDefault();
                 const formData = new FormData(contactForm);
@@ -550,8 +550,8 @@ working on my Data Structures and Algorithms .</p>
                     console.error('Error sending email:', error);
                     showPopup('Error', `Sorry, ${name}. There was an error sending your message. Please try again later.`, true);
                 }
-            });
-        }
+            }); {% endcomment %}
+        {% comment %} } {% endcomment %}
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
